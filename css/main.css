@@ -178,4 +178,64 @@ footer .gutter {
     display: inline-block;
     float: right;
   }
+
+  .content{
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 81em) {
+  p{
+    padding: 0em 2em 2em 2em;
+    font-size: 1.3rem;
+  }
+
+  .content{
+    margin: 0 auto;
+    max-width: 80em;
+  }
+
+  .art{
+    padding-bottom: 7em;
+  }
+}
+
+@media only screen and (min-width: 107em) {
+  .mast{
+    width: 66.66%;
+    float: left;
+  }
+
+  .left, .right{
+    width: 25%;
+  }
+
+  .art{
+    width: 66.66%;
+    float: left;
+    margin: 0em;
+    padding: 0em;
+    clear: left;
+  }
+
+  .content{
+    margin: 0;
+    max-width: none;
+  }
+
+  .hello{
+    width: 33.33%;
+    max-width: none;
+    float: right;
+  }
+
+  p{
+    padding-bottom: 0em;
+  }
+
+  .head{
+    padding: 3em;
+    max-width: none;
+    width: 100%;
+  }
 }
