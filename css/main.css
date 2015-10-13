@@ -1,0 +1,126 @@
+@-moz-viewport {widthL device-width; scale: 1; }
+@-ms-viewport {widthL device-width; scale: 1; }
+@-o-viewport {widthL device-width; scale: 1; }
+@-webkit-viewport {widthL device-width; scale: 1; }
+@viewport {widthL device-width; scale: 1; }
+
+html{
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.3rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  padding: 0em;
+  margin: 0em;
+}
+
+.mast{
+  width: 100%;
+
+}
+
+.head{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  clear: left;
+  padding: .5em;
+}
+
+p{
+  margin: 2em 1em 1em 1em;
+  font-size: .75rem;
+  hyphens: auto;
+  padding-bottom: 1em;
+}
+
+img{
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right{
+  width: 50%;
+  float: right;
+}
+
+footer{
+  clear: both;
+  background-color: #231F20;
+}
+
+footer .grid {
+  overflow: hidden;
+}
+
+footer .icon {
+  float: left;
+  width: 33.3333%;
+  padding: 1.5em;
+}
+
+
+footer .gutter {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media only screen and (min-width: 20em) {
+  .head{
+    max-width: 20em;
+    margin: 0 auto;
+  }
+
+  .grid{
+    max-width: 20em;
+    margin: 0 auto;
+  }
+
+  footer .icon{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media only screen and (min-width: 43em) {
+  .head{
+    margin: 0em;
+    float: left;
+    padding: .5em;
+  }
+
+  p{
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 1.4em;
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .art{
+    clear: both;
+  }
+
+  .left, .right{
+    width: 25%;
+    padding-top: 2em;
+  }
+
+}
