@@ -29,7 +29,6 @@ body{
 
 .mast{
   width: 100%;
-
 }
 
 .head{
@@ -101,17 +100,24 @@ footer .gutter {
 
 @media only screen and (min-width: 43em) {
   .head{
-    margin: 0em;
-    float: left;
+    display: inline-block;
+    width: 50%;
     padding: .5em;
+    top: 30px;
   }
 
   p{
-    overflow: hidden;
+    display: inline-block;
+    width: 50%;
     font-size: 1rem;
     line-height: 1.4em;
-    padding: 1em;
     margin: 0em;
+  }
+
+  .hello{
+    margin: 0 auto;
+    max-width: 45em;
+    padding-bottom: 4em;
   }
 
   .art{
@@ -123,4 +129,50 @@ footer .gutter {
     padding-top: 2em;
   }
 
+}
+
+@media only screen and (min-width: 55em) {
+
+  .head{
+    position: static;
+    display: block;
+    padding: .5em .5em 3em .5em;
+  }
+
+  p{
+    clear: both;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hello{
+    margin: 0em auto;
+  }
+
+}
+
+@media only screen and (min-width: 65em) {
+
+  .hello{
+    width: 50%;
+    float: left;
+    display: inline;
+  }
+
+  p{
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1rem;
+  }
+
+  .left, .right{
+    width: 50%;
+  }
+
+  .art{
+    width: 50%;
+    float: right;
+    display: inline-block;
+  }
 }
