@@ -239,3 +239,10 @@ footer .gutter {
     width: 100%;
   }
 }
+
+@media print{
+  header, footer{
+    display: none;
+  }
+
+}
