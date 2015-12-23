@@ -65,16 +65,11 @@ footer{
   background-color: #231F20;
 }
 
-footer .grid {
-  overflow: hidden;
-}
-
 footer .icon {
-  float: left;
-  width: 33.3333%;
-  padding: 1.5em;
+  padding: .25em;
+  width: 40%;
+  margin: 0 auto;
 }
-
 
 footer .gutter {
   padding-left: 1em;
@@ -129,6 +124,9 @@ footer .gutter {
     padding-top: 2em;
   }
 
+  footer .icon{
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 55em) {
