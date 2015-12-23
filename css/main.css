@@ -69,6 +69,7 @@ footer .icon {
   padding: .25em;
   width: 40%;
   margin: 0 auto;
+  display: flex;
 }
 
 footer .gutter {
@@ -180,6 +181,10 @@ footer .gutter {
   .content{
     margin: 0 auto;
   }
+
+  footer .icon{
+    width: 20%;
+  }
 }
 
 @media only screen and (min-width: 81em) {
@@ -196,6 +201,7 @@ footer .gutter {
   .art{
     padding-bottom: 7em;
   }
+
 }
 
 @media only screen and (min-width: 107em) {
